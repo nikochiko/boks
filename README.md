@@ -15,7 +15,7 @@ $ boks moo
 
 To put multiple things in connected boxes,
 
-```
+```shell
 $ boks apps dbms data
 +----------+     +----------+     +----------+
 |   apps   |<--->|   dbms   |<--->|   data   |
@@ -23,3 +23,16 @@ $ boks apps dbms data
 ```
 
 Use `-a` to customize length of arrows, `-p` to customize padding.
+
+## Installation
+
+If you have `dune` installed,
+
+```shell
+$ git clone https://github.com/nikochiko/boks && cd boks
+$ dune install
+```
+
+## License
+
+MIT. See [LICENSE](/LICENSE).
