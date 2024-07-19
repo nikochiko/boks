@@ -35,4 +35,4 @@ $ dune install
 
 ## License
 
-MIT. See [LICENSE](/LICENSE).
+MIT. See [LICENSE](LICENSE).
