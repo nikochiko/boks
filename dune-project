@@ -5,22 +5,19 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github nikochiko/boks))
 
-(authors "Author Name")
+(authors "Kaustubh M")
 
-(maintainers "Maintainer Name")
+(maintainers "Kaustubh M")
 
-(license LICENSE)
+(license MIT)
 
-(documentation https://url/to/documentation)
+(documentation https://git.kaustubh.page/kaustubh/boks)
 
 (package
  (name boks)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "Box maker in OCaml")
+ (description "CLI tool to make boxes with text in OCaml")
  (depends ocaml dune)
- (tags
-  (topics "to describe" your project)))
-
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
+ (tags "cli"))
