@@ -1,0 +1,4 @@
+(executable
+ (public_name boks)
+ (name main)
+ (libraries boks))

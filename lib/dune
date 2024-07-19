@@ -1,0 +1,3 @@
+(library
+ (name boks)
+ (modules boks))
