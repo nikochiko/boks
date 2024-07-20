@@ -22,7 +22,16 @@ $ boks apps dbms data
 +----------+     +----------+     +----------+
 ```
 
-Use `-a` to customize length of arrows, `-p` to customize padding.
+Use `-a` to customize arrow style, `-p` to customize padding length.
+
+e.g.
+
+```shell
+$ boks -a '--->' 'declarative query' 'optimized plan'
++-----------------------+    +--------------------+
+|   declarative query   |--->|   optimized plan   |
++-----------------------+    +--------------------+
+```
 
 ## Installation
 

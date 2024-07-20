@@ -1,1 +1,1 @@
-val boks : ?padlen:int -> ?arrowlen:int -> string list -> unit
+val boks : padlen:int -> arrow:string -> string list -> unit

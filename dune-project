@@ -20,4 +20,4 @@
  (synopsis "Box maker in OCaml")
  (description "CLI tool to make boxes with text in OCaml")
  (depends ocaml dune)
- (tags "cli"))
+ (tags ("cli")))
